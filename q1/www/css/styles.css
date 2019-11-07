@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html {
+  font-family: Josefin Sans, sans-serif !important;
+}
+
+.cta {
+  /* Positioning and sizing */
+  display: block;
+  width: 220;
+  opacity: .6;
+  /* Padding and margins */
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  /* Text styles */
+  color: white;
+  text-decoration: none;
+  font-size: 1.0em;
+  letter-spacing: 0.08em;
+  font-family: Josefin Sans, sans-serif;
+  /* Border styles */
+  border-radius: 2px;
+  /* Background styles */
+  background-color: #090057;
+}
+
+.cta:hover {
+  color: white;
+  opacity: 1.0;
+  text-decoration: none;
+  text-shadow: none;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: auto;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 33.3%;
+}
+
+.middle {
+  middle: 33.3%;
+}
+
+.carousel .item {
+  background-color: #090057;
+}
+
+h1 {
+  font-family: Josefin Sans, sans-serif;
+  background-color: #fc7978;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: Josefin Sans, sans-serif;
+}
+
+body {
+  font-family: Josefin Sans, sans-serif !important;
+}
+
+header {
+  background-color: #d24a88;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.header {
+  background-color: #d24a88;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+p:first-letter {
+  color: #c400c6;
+  font-size: 24px;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+  background: #ffa069;
+  padding: 20px;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+.right-column {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #57007e;
+}
+
+.right-column img {
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Stack columns */
+@media (max-width: 600px) {
+  .left-column, .middle-column, .right-column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Text styles */
+  text-align: center;
+  color: white;
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/donuts2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero a:hover {
+  color: white;
+  opacity: 1.0;
+  text-shadow: none;
+  border: none;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.hero .cta {
+  /* Positioning and sizing */
+  display: block;
+  width: 300px;
+  opacity: 0.8;
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Text styles */
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  letter-spacing: 0.08em;
+  font-family: Josefin Sans, sans-serif;
+  /* Border styles */
+  border-radius: 2px;
+  /* Background styles */
+  background-color: #ffa069;
+}
+
+/* <CHECKOUT_CART> */
+.item {
+  background: #090057 !important;
+  color: green !important;
+}
+
+#item-name {
+  color: white;
+}
+
+#item-description {
+  color: white;
+}
+
+#item-quantity {
+  color: white;
+}
+
+#item-price {
+  color: white;
+}
+
+#item-quantity {
+  color: white;
+}
+
+#cart-total {
+  background: #57007e;
+}
+
+#cart-total-subtotal {
+  color: white;
+}
+
+#cart-total-hst {
+  color: white;
+}
+
+#cart-total-amount {
+  color: white;
+}
+
+.white-text {
+  color: white;
+}
+
+/* </CHECKOUT_CART> */
